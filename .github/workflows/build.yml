@@ -5,6 +5,7 @@ on:
     inputs:
       version:
         description: "Version string for built binaries"
+        type: string
         required: true
 
 jobs:

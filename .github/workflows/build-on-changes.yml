@@ -5,7 +5,7 @@ on:
   pull_request:
 
 jobs:
-  ci:
+  build:
     uses: ./.github/workflows/build.yml
     with:
       version: ${{ github.sha }}
